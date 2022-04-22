@@ -1,0 +1,15 @@
+@mixin flex($justify-content, $alight-items: null, $alight-content: null, $direction: null) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $alight-items;
+  align-content: $alight-items;
+  flex-direction: $direction;
+}
+
+@mixin font($color, $family, $size, $width: null, $height: null) {
+  color: $color;
+  font-family: $family;
+  font-size: $size;
+  font-weight: $width;
+  line-height: $height;
+}
